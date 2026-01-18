@@ -1,0 +1,6 @@
+- name: Install SonarQube on EC2
+  hosts: sonarqube
+  become: yes
+
+  roles:
+    - sonarqube
