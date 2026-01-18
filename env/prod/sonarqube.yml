@@ -1,8 +1,0 @@
-- name: SonarQube Playbook
-  hosts: sonarqube
-  become: yes
-
-  tasks:
-    - name: Just a test task
-      debug:
-        msg: "SonarQube Ansible playbook executed successfully"
