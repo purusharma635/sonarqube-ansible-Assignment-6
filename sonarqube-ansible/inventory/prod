@@ -1,5 +1,5 @@
 [sonarqube]
-sonarqube-server ansible_host=13.127.174.82
+sonarqube-server ansible_host=35.154.184.31
 
 [sonarqube:vars]
 ansible_user=ubuntu
